@@ -8,9 +8,13 @@
       
   - 编译内核源代码，你必须添加谷歌的工具链(toolchain) 进入Android的目录.
 
-  - 运行以下的脚本来构建内核 
+  - geeb运行以下的脚本来构建内核 
     a) cd kernel
-    b) ./build-gku.sh
+    b) ./build-j1a.sh
+
+  - geehrc运行以下的脚本来构建内核 
+    a) cd kernel
+    b) ./build-j1kt.sh
 
   - 建立之后，就可以找到生成的zip文件。 在Packages/g-kernel-dev-××-××-××××.zip
 
@@ -26,9 +30,13 @@ English
        
   - When you compile the kernel source code, you have to add google original prebuilt source(toolchain) into the android directory.
 
-  - Run following scripts to build kernel
+  - geeb Run following scripts to build kernel
     a) cd kernel
-    b) ./build-gku.sh
+    b) ./build-j1a.sh
+
+  - geehrc Run following scripts to build kernel
+    a) cd kernel
+    b) ./build-j1kt.sh
   
   - After the establishment, you can find the generated zip file. In Packages/g-kernel-dev-××-××-××××.zip
 
