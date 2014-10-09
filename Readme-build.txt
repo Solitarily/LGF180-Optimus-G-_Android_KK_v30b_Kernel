@@ -16,9 +16,10 @@
     a) cd kernel
     b) ./build-j1kt.sh
 
-  - 建立之后，就可以找到生成的zip文件。 在Packages/g-kernel-dev-××-××-××××.zip
+  - 建立之后，就可以找到生成的zip文件。 在Packages/**-kernel-dev-××-××-××××.zip
 
   - 拷贝到手机SD卡进行刷机，替换当前内核。
+
 
 English
 1. Kernel Build 
@@ -38,7 +39,7 @@ English
     a) cd kernel
     b) ./build-j1kt.sh
   
-  - After the establishment, you can find the generated zip file. In Packages/g-kernel-dev-××-××-××××.zip
+  - After the establishment, you can find the generated zip file. In Packages/**-kernel-dev-××-××-××××.zip
 
   - Copy to the phone SD card brush machine, replace the current kernel.
    
