@@ -30,13 +30,14 @@ sleep 1
      mkdir -p Packages/out/
      mkdir -p Packages/out/system/lib/modules/
      mkdir -p Packages/out/tmp/
-     mkdir -p Packages/out/tmp/kernel/
+     mkdir -p Packages/out/tmp/anykernel/
      mkdir -p Packages/out/META-INF/
 
 cp -a $(find . -name *.ko -print |grep -v initramfs) Packages/out/system/lib/modules/
+cp -rf prebuilt-scripts/system/ Packages/out/
 cp -rf prebuilt-scripts/META-INF/ Packages/out/
 cp -rf prebuilt-scripts/tmp/ Packages/out/
-cp arch/arm/boot/zImage Packages/out/tmp/kernel/
+cp arch/arm/boot/zImage Packages/out/tmp/anykernel/
 
 # build flashable zip
      export curdate=`date "+%m-%d-%Y"`
